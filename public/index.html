@@ -8,16 +8,17 @@
     />
     <title>Voyance</title>
   </head>
-  <body onload="myFunctionLoad()">
+  <body>
     <h1>Voyance chez Dame Sica</h1>
     <div class="form">
     <input type="text"  placeholder="pose ta question"/>
-    <button onclick="func()">Demandez à la boule magique</button>
+    <button id='myBtn'>Demandez à la boule magique</button>
+    <button id='myBtnReset'>Une autre question ?</button>
     <div id="loader" class="loader"></div>
     <p id="loader1">en cours de réflexion</p>
     </div>
 
-    <p id="prevoyance"></p>
+    <p id="phrase"></p>
     <p id="bouleMagic"></p>
   </body>
 </html>

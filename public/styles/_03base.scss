@@ -17,7 +17,11 @@ body {
       padding: 40px 10px;
       margin: 20px;
     }
+    #loader1{
+      display:none;
+    }
     .loader {
+      display:none;
       margin: 0 auto;
       border: 16px solid #f3f3f3; /* Light grey */
       border-top: 16px solid #3498db; /* Blue */
