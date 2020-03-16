@@ -9,6 +9,7 @@ body {
   }
   p{
     text-align: center;
+ 
   }
   .form{
     text-align: center;
@@ -17,8 +18,10 @@ body {
       padding: 40px 10px;
       margin: 20px;
     }
+
     #loader1{
       display:none;
+      margin-top: 30px;
     }
     .loader {
       display:none;
@@ -35,5 +38,11 @@ body {
       100% { transform: rotate(360deg); }
     }
   }
-
+  #phrase{
+    padding-top:50px;
+    font-size:26px;
+  }
+  .loaderEnCours{
+    padding-top:50px;
+  }
 }
