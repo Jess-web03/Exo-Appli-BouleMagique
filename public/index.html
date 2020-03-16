@@ -6,9 +6,18 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <title>New project</title>
+    <title>Voyance</title>
   </head>
-  <body>
-    My seed is growing.
+  <body onload="myFunctionLoad()">
+    <h1>Voyance chez Dame Sica</h1>
+    <div class="form">
+    <input type="text"  placeholder="pose ta question"/>
+    <button onclick="func()">Demandez à la boule magique</button>
+    <div id="loader" class="loader"></div>
+    <p id="loader1">en cours de réflexion</p>
+    </div>
+
+    <p id="prevoyance"></p>
+    <p id="bouleMagic"></p>
   </body>
 </html>
